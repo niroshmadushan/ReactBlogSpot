@@ -1,0 +1,27 @@
+
+.btn{
+    width: 30%;
+    height: 30px;
+    background-color: rgb(108, 108, 245);
+    color: white;
+    font-size: medium;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 5px;
+
+}
+.btn:hover{
+    background-color: rgb(176, 176, 245);
+    color: rgb(2, 2, 70);
+}
+.btn:active{
+    transform: scale(0.90);
+    background-color: rgb(67, 67, 189);
+    color: rgb(255, 255, 255);
+
+}
+.settop{
+    position: fixed;
+    z-index: 1;
+}
